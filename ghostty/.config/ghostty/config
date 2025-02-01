@@ -1,0 +1,13 @@
+theme                 = catppuccin-mocha
+
+background-opacity    = 0.9
+
+font-family           = MesloLGS NF
+font-size             = 16
+
+macos-titlebar-style  = hidden
+
+window-padding-x      = 15
+window-padding-y      = 15
+
+gtk-tabs-location     = bottom
