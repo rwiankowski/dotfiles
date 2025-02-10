@@ -1,6 +1,7 @@
 theme                 = catppuccin-mocha
 
 background-opacity    = 0.9
+split-divider-color   = #cba6f7
 
 font-family           = MesloLGS NF
 font-size             = 14
@@ -12,3 +13,9 @@ window-padding-y      = 15
 window-decoration     = false
 
 gtk-tabs-location     = bottom
+
+keybind               = super+p>l=new_split:right
+keybind               = super+h>l=new_split:left
+keybind               = super+k>l=new_split:up
+keybind               = super+j>l=new_split:down
+keybind               = super+r=reload_config
