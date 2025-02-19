@@ -15,7 +15,13 @@ window-decoration     = false
 gtk-tabs-location     = bottom
 
 keybind               = super+p>l=new_split:right
-keybind               = super+h>l=new_split:left
-keybind               = super+k>l=new_split:up
-keybind               = super+j>l=new_split:down
+keybind               = super+p>h=new_split:left
+keybind               = super+p>k=new_split:up
+keybind               = super+p>j=new_split:down
+
+keybind               = super+p>right=goto_split:right
+keybind               = super+p>left=goto_split:left
+keybind               = super+p>up=goto_split:up
+keybind               = super+p>down=goto_split:down
+
 keybind               = super+r=reload_config
