@@ -1,0 +1,88 @@
+{
+  "position": "top",
+  "layer": "top",
+  "mode": "dock",
+  "spacing": 4,
+  "height": 45,
+  "reload_style_on_change": true,
+  
+  "modules-left": ["custom/left_l", "hyprland/workspaces", "custom/left_r"],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "temperature", "memory", "network", "bluetooth", "pulseaudio"],
+
+
+  "hyprland/workspaces": {
+	"active-only": false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"show-special": false,
+	"on-click": "activate",
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+        "persistent-workspaces": {
+	    "*": 5
+	},
+	"format-icons": {
+		"active": "",
+		"default": ""
+	}
+  },
+
+  "clock": {
+	"format": "   {:%H:%M     %a, %d %b }",
+	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  }, 
+
+  "bluetooth": {
+	"format": " ",
+	"format-disabled": "󰂳",
+	"format-connected": "󰂱 {num_connections}",
+	"tooltip-format": " {device_alias}",
+	"tooltip-format-connected": "{device_enumerate}",
+	"tooltip-format-enumerate-connected": " {device_alias} 󰂄 {device_battery_percentage}%",
+	"tooltip": true,
+	"on-click": "blueman-manager"
+},
+
+"cpu": {
+	"interval": 10,
+	"format": "   {usage}% @ {avg_frequency} GHz"
+},
+
+"temperature": {
+	"format": " {temperatureC}°C"
+},
+
+"memory": {
+	"format": "   {used} / {total}"
+},
+
+"network": {
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
+  },
+
+  "pulseaudio": {
+      "format": "{icon}  {volume}%",
+      "format-muted": "",
+      "format-icons": {
+          "default": ["", "", " "]
+      },
+      "on-click": "pavucontrol"
+  }
+},
+
+"custom/left_l": {
+	"format": "  ",
+        "interval" : "once",
+        "tooltip": false
+},
+
+"custom/left_r": {
+	"format": " ",
+        "interval" : "once",
+        "tooltip": false
+}

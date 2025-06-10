@@ -1,0 +1,89 @@
+@import "mocha.css"; 
+
+* {
+    font-family: "MesloLGS Nerd Font Mono Bold";
+    font-size: 16px;
+    min-height: 0;
+    font-weight: normal;
+}
+
+#custom-left_l,
+#custom-left_r,
+
+window#waybar {
+    background: transparent;
+    color: @overlay0;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
+
+#window {
+}
+
+button {
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces {
+    background-color: rgba(0, 0, 0, 0.3);	
+    padding: 5px;
+    color: @mauve;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#workspaces button:hover {
+    color: @red;
+}
+
+#cpu {
+	color: @red;
+}
+#memory {
+	color: @peach;
+	padding: 0 5px;
+}
+
+#temperature {
+	color: @red
+}
+
+#clock {
+    color: @lavender;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+#bluetooth {
+	color: @blue;
+}
+
+#pulseaudio {
+    color: @green;
+}
+
+#network {
+    color: @yellow;
+    padding: 5px;
+}
+
+#idle_inhibitor {
+    margin-right: 12px;
+    color: #7cb342;
+}
+
+#idle_inhibitor.activated {
+    color: @red;
+}
+
+#custom-left_l {
+    background-color: rgba(0, 0, 0, 0.3);	
+    border-radius: 0px 21px 21px 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 9px;
+    padding-right: 3px;
+}
