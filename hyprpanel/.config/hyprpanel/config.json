@@ -1,6 +1,6 @@
 {
-  "theme.font.name": "MesloLGS Nerd Font Propo",
-  "theme.font.label": "MesloLGS Nerd Font Propo",
+  "theme.font.name": "MesloLGS Nerd Font",
+  "theme.font.label": "MesloLGS Nerd Font Bold",
   "theme.bar.floating": true,
   "theme.bar.location": "top",
   "theme.bar.buttons.windowtitle.enableBorder": false,

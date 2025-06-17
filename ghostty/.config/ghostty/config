@@ -25,3 +25,5 @@ keybind               = super+p>up=goto_split:up
 keybind               = super+p>down=goto_split:down
 
 keybind               = super+r=reload_config
+
+keybind		      = super+w=close_surface
