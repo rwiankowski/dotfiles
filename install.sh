@@ -162,8 +162,12 @@ setup_flatpak() {
     flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
     
     local flatpak_apps=(
-        "io.github.zen_browser.zen"
-        "com.1password.1Password"
+        "app.zen_browser.zen"
+        "com.discordapp.Discord"
+        "org.gimp.GIMP"
+        "org.onlyoffice.desktopeditors"
+        "md.obsidian.Obsidian"
+        "io.freetubeapp.FreeTube"
         "com.valvesoftware.Steam"
     )
     
