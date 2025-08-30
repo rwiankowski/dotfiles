@@ -69,8 +69,7 @@ install_base_packages() {
         "sudo" "zip" "unzip" "htop" "neofetch" "tree" "which"
         
         # Fonts
-        "noto-fonts" "noto-fonts-emoji" "noto-fonts-cjk"
-        "ttf-fira-code" "ttf-jetbrains-mono" "ttf-meslo-lgs"
+        "noto-fonts" "ttf-fira-code" "ttf-jetbrains-mono-nerd" "ttf-meslo-nerd"
         "ttf-nerd-fonts-symbols" "ttf-nerd-fonts-symbols-mono"
         
         # Terminal and shell tools
@@ -88,8 +87,8 @@ install_base_packages() {
         "lxappearance" "qt5ct" "qt6ct"
         
         # Hyprland ecosystem
-        "hyprland" "hypridle" "hyprlock" "hyprpaper" 
-        "hyprsunset" "xdg-desktop-portal-hyprland"
+        "hyprland" "hypridle" "hyprlock" "hyprpaper" "hyprdshot"
+        "hyprsunset" "xdg-desktop-portal-hyprland" "xdg-user-dirs-gtkś"
         
         # Audio
         "pipewire" "pipewire-alsa" "pipewire-pulse" "wireplumber"
