@@ -66,7 +66,7 @@ install_base_packages() {
     local base_packages=(
         # System essentials
         "base-devel" "git" "curl" "wget" "man-db" "man-pages" 
-        "sudo" "zip" "unzip" "htop" "neofetch" "tree" "which"
+        "sudo" "zip" "unzip" "htop" "fastfetch" "tree" "which"
         
         # Fonts
         "noto-fonts" "ttf-fira-code" "ttf-jetbrains-mono-nerd" "ttf-meslo-nerd"
