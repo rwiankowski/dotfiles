@@ -87,8 +87,8 @@ install_base_packages() {
         "lxappearance" "qt5ct" "qt6ct"
         
         # Hyprland ecosystem
-        "hyprland" "hypridle" "hyprlock" "hyprpaper" "hyprdshot"
-        "hyprsunset" "xdg-desktop-portal-hyprland" "xdg-user-dirs-gtkś"
+        "hyprland" "hypridle" "hyprlock" "hyprpaper" "hyprshot"
+        "hyprsunset" "xdg-desktop-portal-hyprland" "xdg-user-dirs-gtk"
         
         # Audio
         "pipewire" "pipewire-alsa" "pipewire-pulse" "wireplumber"
@@ -96,9 +96,6 @@ install_base_packages() {
         
         # Network
         "networkmanager" "network-manager-applet"
-        
-        # File systems
-        "gvfs" "gvfs-mtp" "gvfs-nfs" "gvfs-smb"
         
         # AMD drivers
         "amd-ucode" "mesa" "vulkan-radeon" "libva-mesa-driver"
