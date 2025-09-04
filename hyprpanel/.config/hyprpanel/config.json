@@ -462,5 +462,8 @@
   "theme.bar.buttons.monochrome": false,
   "bar.customModules.ram.labelType": "used/total",
   "bar.customModules.power.icon": "󰣇",
-  "theme.bar.outer_spacing": "0.25em"
+  "theme.bar.outer_spacing": "0.25em",
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }
